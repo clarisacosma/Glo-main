@@ -22,7 +22,8 @@ span {
 }
 
 .community {
-  width: 800px;
+  max-width: 800px;
+  width: 100%;
   margin: auto;
 }
 
