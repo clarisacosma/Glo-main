@@ -46,17 +46,31 @@
 }
 
 @media (max-width: 768px) {
+  p,
+  h3,
+  h4,
+  h5 {
+    color: #3d5567;
+  }
+
   h1 {
     font-size: 30px;
   }
   .intro {
-    max-width: 80%;
+    max-width: 100%;
     margin: auto;
+    padding: 0 15px;
   }
 
   h2 {
     font-size: 28px;
     margin-top: 50px;
+  }
+
+  h5 {
+    font-size: 20px;
+    margin: 8px 0;
+    padding: 0 15px;
   }
 
   .device {
@@ -72,14 +86,61 @@
   }
 
   .deviceParagraph {
-    max-width: 75%;
+    max-width: 100%;
+    padding: 0 15px;
+  }
+
+  .products h3 {
+    text-align: center;
+    line-height: 30px;
+  }
+
+  .products p {
+    padding: 0 15px;
+  }
+
+  .videoDescription {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   .explanations {
     flex-direction: column;
     max-width: 100%;
-    margin: 60px 10px 60px 30px;
+    margin: 0;
     gap: 10px;
+  }
+
+  .explanationParagraph {
+    margin-top: 15px;
+    font-size: 14px;
+    padding: 0 15px;
+  }
+
+  .firstContainer.mobile {
+    content-visibility: visible;
+    padding: 0 15px;
+  }
+
+  .firstContainer.mobile p {
+    text-align: left;
+  }
+
+  .firstContainer.mobile h4 {
+    max-width: 100%;
+    line-height: 30px;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+  }
+
+  .firstContainer.desktop {
+    content-visibility: hidden;
   }
 
   .rightSide {
@@ -109,7 +170,9 @@
   .warnings {
     flex-direction: column;
     max-width: 100vw;
-    margin: 60px 100px 100px 100px;
+    margin: 0;
+    margin-top: 15px;
+    padding: 0 15px;
   }
 
   .warning1 {
@@ -121,5 +184,19 @@
     flex-direction: column;
     max-width: 90%;
     margin-bottom: 50px;
+  }
+
+  #video {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-height: 500px;
+    height: auto;
+  }
+  .centerButton {
+    display: flex;
+  }
+  .bttn {
+    position: unset;
+    transform: none;
   }
 }

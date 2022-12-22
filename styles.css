@@ -170,6 +170,10 @@ h5 {
   flex-grow: 1;
 }
 
+.firstContainer.mobile {
+  content-visibility: hidden;
+}
+
 .images {
   max-width: 100%;
 }
