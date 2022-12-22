@@ -1,0 +1,123 @@
+@media (max-width: 1024px) {
+  .device {
+    display: flex;
+  }
+
+  #gloDevice {
+    max-width: 60%;
+  }
+
+  .deviceDescription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .paragraphs {
+    text-align: center;
+  }
+
+  #video {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    max-height: 500px;
+  }
+
+  .videoDescription {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 957px) {
+  .explanations {
+    gap: 5px;
+  }
+
+  .secondContainer,
+  .thirdContainer {
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 30px;
+  }
+  .intro {
+    max-width: 80%;
+    margin: auto;
+  }
+
+  h2 {
+    font-size: 28px;
+    margin-top: 50px;
+  }
+
+  .device {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #gloDevice {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+  }
+
+  .deviceParagraph {
+    max-width: 75%;
+  }
+
+  .explanations {
+    flex-direction: column;
+    max-width: 100vw;
+    margin: 60px 100px;
+    gap: 10px;
+  }
+
+  .rightSide {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .leftSide {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .firstContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .secondContainer,
+  .thirdContainer {
+    max-width: 100%;
+  }
+
+  .images {
+    max-width: 100%;
+  }
+
+  .warnings {
+    flex-direction: column;
+  }
+
+  .warning1 {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .closingLine {
+    flex-direction: column;
+    max-width: 80%;
+    margin-bottom: 50px;
+  }
+}
